@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example
+spec:
+  containers:
+  - name: assignmentdemo-container
+    image: anjalinashtech961/assignmentdemo
+    ports:
+    - containerPort: 8082
+         
